@@ -1,0 +1,14 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+
+
+# --- Logs and Models ---
+# Ignore saved model weights (H5, Keras, etc.) as they are too large for Git
+*.h5
+*.keras
+*.pkl
+checkpoint/
+weights/
+
